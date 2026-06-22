@@ -1,7 +1,7 @@
 # app/main.py
 from fastapi import FastAPI
 from pydantic import BaseModel
-from .inference import load_artifacts, predict_sentiment
+from inference import load_artifacts, predict_sentiment
 
 # Initialize FastAPI app
 app = FastAPI(
@@ -11,6 +11,7 @@ app = FastAPI(
 )
 
 # Load model and tokenizer once at startup
+
 model, tokenizer, max_len = load_artifacts()
 
 # Define request model
