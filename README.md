@@ -133,10 +133,13 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-## Demo
+## 🎬 Demo
 
-[![Watch Demo](assets/demo-/home/eddie/projects/Sentiment_app/positive api.png)](https://youtu.be/AYDxyyB3vA8)
+Watch the complete walkthrough of the Sentiment Analysis API, including model inference, FastAPI endpoints, Swagger UI testing, and Docker deployment.
 
+[![Watch Demo](assets/demo-thumbnail.png)](https://youtu.be/AYDxyyB3vA8)
+
+> Click the image above to watch the full demonstration on YouTube.
 ---
 
 ---
