@@ -1,1 +1,9 @@
 venv/
+venv
+venv/
+venv_windows
+venv_windows/
+.git
+.gitignore
+__pycache__
+*.pyc

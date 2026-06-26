@@ -24,7 +24,7 @@ RUN apt-get update && apt-get install -y \
 # Copy dependencies & install them
 # ============================================================
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN PIP_DEFAULT_TIMEOUT=1000 pip install --no-cache-dir -r requirements.txt
 
 # ============================================================
 # Copy application code

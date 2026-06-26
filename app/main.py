@@ -1,7 +1,7 @@
 # app/main.py
 from fastapi import FastAPI
 from pydantic import BaseModel
-from inference import load_artifacts, predict_sentiment
+from .inference import load_artifacts, predict_sentiment
 
 # Initialize FastAPI app
 app = FastAPI(

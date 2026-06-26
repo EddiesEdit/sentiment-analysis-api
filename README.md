@@ -133,6 +133,12 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
+## Demo
+
+[![Watch Demo](assets/demo-/home/eddie/projects/Sentiment_app/positive api.png)](https://youtu.be/AYDxyyB3vA8)
+
+---
+
 ---
 
 ## Training
